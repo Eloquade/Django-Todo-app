@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 
 <html lang="english">
@@ -40,30 +41,29 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="{% static '/css/style.css' %}" />
   </head>
+  <form action="POST">
   <body>
     <div>
-      <link href="./desktop132.css" rel="stylesheet" />
+      <link href="{% static '/css/desktop132.css' %}" rel="stylesheet" />
 
       <div class="desktop132-container">
         <div class="desktop132-desktop132">
           <img
-            src="public/playground_assets/image11652-00b-200w.png"
+            src="{% static '/images/image11652-00b-200w.png' %}"
             alt="image11652"
             class="desktop132-image"
           />
           <img
-            src="public/playground_assets/rectangle135-ljkop-200h.png"
+            src="{% static '/images/rectangle135-ljkop-200h.png' %}"
             alt="Rectangle135"
             class="desktop132-image01"
           />
           <span class="desktop132-text">
             <span class="desktop132-text01">List all Todo</span>
           </span>
-          <span class="desktop132-text02">
-            <span class="desktop132-text03">Login</span>
-          </span>
+
           <span class="desktop132-text04">
             <span class="desktop132-text05">Todo App</span>
           </span>
@@ -114,32 +114,32 @@
             <span class="desktop132-text36">Tasks</span>
           </span>
           <img
-            src="public/playground_assets/image3528-ylqe-300h.png"
+            src="{% static '/images/image3528-ylqe-300h.png' %}"
             alt="image3528"
             class="desktop132-image02"
           />
           <img
-            src="public/playground_assets/image4530-2r5k-200h.png"
+            src="{% static '/images/image4530-2r5k-200h.png' %}"
             alt="image4530"
             class="desktop132-image03"
           />
           <img
-            src="public/playground_assets/image5532-uqxc-200h.png"
+            src="{% static '/images/image5532-uqxc-200h.png' %}"
             alt="image5532"
             class="desktop132-image04"
           />
           <img
-            src="public/playground_assets/image8639-fekf-200w.png"
+            src="{% static '/images/image8639-fekf-200w.png' %}"
             alt="image8639"
             class="desktop132-image05"
           />
           <img
-            src="public/playground_assets/image9641-86n-200w.png"
+            src="{% static '/images/image9641-86n-200w.png' %}"
             alt="image9641"
             class="desktop132-image06"
           />
           <img
-            src="public/playground_assets/image10643-8rvs-200h.png"
+            src="{% static '/images/image10643-8rvs-200h.png' %}"
             alt="image10643"
             class="desktop132-image07"
           />
@@ -153,12 +153,12 @@
             <span class="desktop132-text42">Past Due</span>
           </span>
           <img
-            src="public/playground_assets/rectangle2653-gewm-200h.png"
+            src="{% static '/images/rectangle2653-gewm-200h.png' %}"
             alt="Rectangle2653"
             class="desktop132-image08"
           />
           <img
-            src="public/playground_assets/rectangle4124-un1n-200h.png"
+            src="{% static '/images/rectangle4124-un1n-200h.png' %}"
             alt="Rectangle4124"
             class="desktop132-image09"
           />
@@ -169,17 +169,12 @@
             <span class="desktop132-text46">View Calendar</span>
           </span>
           <img
-            src="public/playground_assets/image12757-1vnn-200h.png"
-            alt="image12757"
-            class="desktop132-image10"
-          />
-          <img
-            src="public/playground_assets/image2526-s34k-500w.png"
+            src="{% static '/images/image2526-s34k-500w.png' %}"
             alt="image2526"
             class="desktop132-image11"
           />
           <img
-            src="public/playground_assets/rectangle3123-y4uu-700w.png"
+            src="{% static '/images/rectangle3123-y4uu-700w.png' %}"
             alt="Rectangle3123"
             class="desktop132-image12"
           />
@@ -206,22 +201,22 @@
             </span>
           </span>
           <img
-            src="public/playground_assets/image13125-wxu-200w.png"
+            src="{% static '/images/image13125-wxu-200w.png' %}"
             alt="image13125"
             class="desktop132-image13"
           />
           <img
-            src="public/playground_assets/image14163-528j-400w.png"
+            src="{% static '/images/image14163-528j-400w.png' %}"
             alt="image14163"
             class="desktop132-image14"
           />
           <img
-            src="public/playground_assets/image15164-hkm-200w.png"
+            src="{% static '/images/image15164-hkm-200w.png' %}"
             alt="image15164"
             class="desktop132-image15"
           />
           <img
-            src="public/playground_assets/image16169-z4g-200h.png"
+            src="{% static '/images/image16169-z4g-200h.png' %}"
             alt="image16169"
             class="desktop132-image16"
           />
@@ -229,4 +224,5 @@
       </div>
     </div>
   </body>
+  </form>
 </html>

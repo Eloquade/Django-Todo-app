@@ -1,0 +1,256 @@
+.desktop2192-container {
+  min-height: 100vh;
+}
+.desktop2192-desktop2192 {
+  width: 1525px;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 1525px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.desktop2192-image {
+  top: 0px;
+  left: -4px;
+  width: 1529px;
+  height: 108px;
+  position: absolute;
+  object-fit: cover;
+  border-color: rgba(0, 0, 0, 0.3199999928474426);
+  border-style: solid;
+  border-width: 0.5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.desktop2192-text {
+  top: 37px;
+  left: 308px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-text01 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-text02 {
+  top: 37px;
+  left: 137px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-text03 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-image1 {
+  top: 10px;
+  left: 32px;
+  width: 83px;
+  height: 81px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  border-radius: 17px;
+}
+.desktop2192-image2 {
+  top: 30px;
+  left: 233px;
+  width: 59px;
+  height: 49px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  border-radius: 192.5px;
+}
+.desktop2192-text04 {
+  top: 133px;
+  left: 137px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-text05 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-text06 {
+  top: 320px;
+  left: 137px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-text07 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-image3 {
+  top: 201px;
+  left: 137px;
+  width: 800px;
+  height: 77px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(196, 196, 196, 1);
+}
+.desktop2192-image4 {
+  top: 600px;
+  left: 137px;
+  width: 800px;
+  height: 77px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(196, 196, 196, 1);
+}
+.desktop2192-image5 {
+  top: 388px;
+  left: 137px;
+  width: 800px;
+  height: 105px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  background-color: rgba(196, 196, 196, 1);
+}
+.desktop2192-text08 {
+  top: 532px;
+  left: 137px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-text09 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-image6 {
+  top: 715px;
+  left: 435px;
+  width: 204px;
+  height: 78px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  border-radius: 20px;
+  background-color: rgba(196, 196, 196, 1);
+}
+.desktop2192-text10 {
+  top: 730px;
+  left: 507px;
+  color: rgba(0, 0, 0, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 34px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-text11 {
+  color: rgba(0, 0, 0, 1);
+  width: 155px;
+  height: auto;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2192-image7 {
+  top: 150px;
+  left: 968px;
+  width: 544px;
+  height: 469px;
+  position: absolute;
+  object-fit: cover;
+  border-color: transparent;
+  border-radius: 272px;
+}

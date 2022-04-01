@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 
 <html lang="english">
@@ -36,16 +37,16 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}" />
   </head>
   <body>
     <div>
-      <link href="./desktop2192.css" rel="stylesheet" />
+      <link href="{% static 'css/desktop2192.css' %}" rel="stylesheet" />
 
       <div class="desktop2192-container">
         <div class="desktop2192-desktop2192">
           <img
-            src="public/playground_assets/rectangle1194-tss-200h.png"
+            src="{% static 'images/rectangle1194-tss-200h.png' %}"
             alt="Rectangle1194"
             class="desktop2192-image"
           />
@@ -56,41 +57,33 @@
             <span class="desktop2192-text03">Todo App</span>
           </span>
           <img
-            src="public/playground_assets/image41919-9yol-200h.png"
+            src="{% static 'images/image41919-9yol-200h.png' %}"
             alt="image41919"
             class="desktop2192-image1"
           />
           <img
-            src="public/playground_assets/image51920-jrjw-200h.png"
+            src="{% static 'images/image51920-jrjw-200h.png' %}"
             alt="image51920"
             class="desktop2192-image2"
           />
           <span class="desktop2192-text04">
             <span class="desktop2192-text05">Todo Title</span>
+              <br></br>
+             <input type="text" id="fname" name="{{ form.title }}
           </span>
+
           <span class="desktop2192-text06">
             <span class="desktop2192-text07">Todo Description</span>
+              <input type="text" id="description" name="{{ form.description }}
           </span>
-          <img
-            src="public/playground_assets/rectangle51945-vrtv-200h.png"
-            alt="Rectangle51945"
-            class="desktop2192-image3"
-          />
-          <img
-            src="public/playground_assets/rectangle71949-jq7k-200h.png"
-            alt="Rectangle71949"
-            class="desktop2192-image4"
-          />
-          <img
-            src="public/playground_assets/rectangle61947-6x6j-200h.png"
-            alt="Rectangle61947"
-            class="desktop2192-image5"
-          />
+
           <span class="desktop2192-text08">
             <span class="desktop2192-text09">Todo Priority</span>
+              <br></br>
+               <input type="number" id="priority" name="{{ form.priority }}
           </span>
           <img
-            src="public/playground_assets/rectangle81950-i6lj-200h.png"
+            src="{% static 'images/rectangle81950-i6lj-200h.png' %}"
             alt="Rectangle81950"
             class="desktop2192-image6"
           />
@@ -102,7 +95,7 @@
             </span>
           </span>
           <img
-            src="public/playground_assets/image171954-8xd-600w.png"
+            src="{% static 'images/image171954-8xd-600w.png' %}"
             alt="image171954"
             class="desktop2192-image7"
           />
@@ -111,3 +104,4 @@
     </div>
   </body>
 </html>
+{{ form }}

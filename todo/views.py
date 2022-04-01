@@ -10,11 +10,11 @@ def index(request):
 
 def submit(request):
     form = Todo_form
-    obj = Todo()
-    obj.title = request.GET['title']
-    obj.description = request.GET['description']
-    obj.priority = request.GET['priority']
-    obj.save()
+    # obj = Todo()
+    # obj.title = request.GET['title']
+    # obj.description = request.GET['description']
+    # obj.priority = request.GET['priority']
+    # obj.save()
     if request.method == 'POST':
         form = Todo_form(request.POST)
         if form.is_valid():

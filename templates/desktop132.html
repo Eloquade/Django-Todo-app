@@ -49,7 +49,7 @@
       <link href="{% static '/css/desktop132.css' %}" rel="stylesheet" />
 
       <div class="desktop132-container">
-        <div class="desktop132-desktop132">
+        <a class="desktop132-desktop132">
           <img
             src="{% static '/images/image11652-00b-200w.png' %}"
             alt="image11652"
@@ -123,11 +123,14 @@
             alt="image4530"
             class="desktop132-image03"
           />
-          <img
+          <a href="{% url 'submit' %}"><img
+
             src="{% static '/images/image5532-uqxc-200h.png' %}"
+
             alt="image5532"
             class="desktop132-image04"
-          />
+            />
+
           <img
             src="{% static '/images/image8639-fekf-200w.png' %}"
             alt="image8639"

@@ -1,3 +1,4 @@
+
 {% load static %}
 <!DOCTYPE html>
 
@@ -73,47 +74,16 @@
             class="desktop2192-image2"
           />
           <span class="desktop2192-text04">
-            <span class="desktop2192-text05">Todo Title
+            <span class="desktop2192-text05">List
+                <br></br>
+                {% for todos in todo %}
+                    <div>
+                        <a href="{% url 'updatetodo' todos.id %}">Update</a>
+                        <p>{{ todos }} {{ todos.created_at }} {{ todos.description }} {{ todos.priority }}</p>
+                    </div>
+                {% endfor %}
 
-            </span>
-              <br></br>
-            <div  style="border:black; border-width:1px; border-style:solid;">
-             {{ form.title }}
-                </div>
-          </span>
 
-          <span class="desktop2192-text06">
-            <span class="desktop2192-text07">Todo Description</span>
-              <br></br>
-              <div  style="border:black; border-width:1px; border-style:solid;">
-            {{ form.description }}
-
-                  </div>
-          </span>
-            <br></br>
-          <span class="desktop2192-text08">
-           <br></br>
-               <br></br>
-            <span class="desktop2192-text09">Todo Priority</span>
-              <br></br>
-            <div  style="border:black; border-width:1px; border-style:solid;">
-            {{ form.priority }}
-                </div>
-          </span>
-
-          <span class="desktop2192-text10">
-           <br>
-
-             <input type="submit" class="btn btn-primary" style=" background-color: #4CAF50;
-                  border: none;
-                  color: white;
-                  padding: 20px 32px;
-                  text-align: left;
-                  text-decoration: none;
-                  display: inline-block;
-                  font-size: 24px;
-                  margin: 5px -370px;
-                  cursor: pointer;"></input>
           </span>
 
           <img

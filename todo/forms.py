@@ -4,7 +4,7 @@ from django import forms
 from .models import *
 
 
-class Todo_form(ModelForm):
+class TodoForm(ModelForm):
     class Meta:
         model = Todo
         fields = "__all__"

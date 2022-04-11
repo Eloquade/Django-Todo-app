@@ -9,15 +9,25 @@ def index(request):
 
 
 def submit(request):
-    form = Todo_form
-    # obj = Todo()
-    # obj.title = request.GET['title']
-    # obj.description = request.GET['description']
-    # obj.priority = request.GET['priority']
-    # obj.save()
+    form = TodoForm
     if request.method == 'POST':
-        form = Todo_form(request.POST)
+        form = TodoForm(request.POST)
         if form.is_valid():
             form.save()
+        # return redirect('/')
     context = {'form': form}
     return render(request, 'desktop2192.html', context)
+
+
+def list(request):
+    todo = Todo.objects.all()
+    context = {'todo': todo}
+    return render(request, 'list.html', context)
+
+
+def updatetodo(request, pk):
+    todo = Todo.objects.get(id=pk)
+
+    form = TodoForm(instance=todo)
+    context = {'form': form}
+    return render(request, 'update.html', context)
